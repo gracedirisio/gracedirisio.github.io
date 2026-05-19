@@ -37,7 +37,7 @@ border-bottom: 1px solid #000000;
 
 .nav-name {
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1.95rem;
   color: var(--text);
   text-decoration: none;
 }
@@ -163,7 +163,7 @@ h2 {
 }
 
 .paper-title {
-  font-size: 1.2rem;
+  font-size: 1.0rem;
   margin-bottom: 0.2rem;
 }
 
