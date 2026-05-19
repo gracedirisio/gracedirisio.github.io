@@ -32,7 +32,7 @@ nav {
   justify-content: space-between;
   padding: 2rem 0;
   margin-bottom: 3rem;
-  border-bottom: 1px solid var(--border);
+border-bottom: 1px solid #000000;
 }
 
 .nav-name {
@@ -215,7 +215,7 @@ h2 {
 /* FOOTER */
 footer {
   padding: 2rem 0 1.5rem;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid #000000;
   margin-top: 3rem;
   font-size: 0.82rem;
   color: var(--muted);
