@@ -3,11 +3,59 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Papers — Grace DiRisio</title>
+  <title>Publications — Grace DiRisio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
+  <style>
+    .pub-section { margin-bottom: 2.5rem; }
+    .pub-year {
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+      margin-bottom: 1.2rem;
+    }
+    .pub-item {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.2rem;
+      font-size: 0.92rem;
+      line-height: 1.6;
+    }
+    .pub-num {
+      color: var(--muted);
+      font-size: 0.8rem;
+      min-width: 1.2rem;
+      flex-shrink: 0;
+      padding-top: 0.1rem;
+      text-align: right;
+    }
+    .pub-cite { flex: 1; }
+    .pub-cite a {
+      color: var(--text);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .pub-cite a:hover { color: var(--muted); }
+    .preprint-label {
+      display: inline-block;
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      border-radius: 2px;
+      padding: 0 0.35rem;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -15,53 +63,64 @@
     <div class="nav-links">
       <a href="index.html">Home</a>
       <a href="https://drive.google.com/file/d/1dTnSsPS464YSvUCDtDxp482b3cycrvg7/view?usp=sharing" target="_blank">CV</a>
-      <a href="papers.html" class="active">Papers</a>
+      <a href="papers.html" class="active">Publications</a>
       <a href="current-work.html">Current Work</a>
     </div>
   </nav>
 
   <main>
-    <h2>Papers</h2>
+    <h2>Publications</h2>
 
-    <div class="paper-list">
-
-      <div class="paper-item">
-        <span class="year">2026</span>
-        <div>
-          <p class="paper-title">Neuronal signatures of successful one-shot memory in mid-level visual cortex</p>
-          <p class="paper-meta">Pre-print, under review &mdash; <a href="https://doi.org/10.1101/2025.09.22.677855" target="_blank">Link</a></p>
-        </div>
+    <div class="pub-section">
+      <div class="pub-year">Preprint</div>
+      <div class="pub-item">
+        <span class="pub-num">4.</span>
+        <span class="pub-cite">
+          <strong>DiRisio, G. F.</strong>, Xue, C., &amp; Cohen, M. R. (2025). Neuronal signatures of successful one-shot memory in mid-level visual cortex. <em>bioRxiv.</em> <a href="https://doi.org/10.1101/2025.09.22.677855" target="_blank">https://doi.org/10.1101/2025.09.22.677855</a><span class="preprint-label">Preprint</span>
+        </span>
       </div>
-
-      <div class="paper-item">
-        <span class="year">2025</span>
-        <div>
-          <p class="paper-title">Rewarding animals based on their subjective percepts is enabled by online Bayesian estimation of perceptual biases</p>
-          <p class="paper-meta">PMID: 40393031 &mdash; <a href="https://doi.org/10.1371/journal.pbio.3002764" target="_blank">Link</a></p>
-        </div>
-      </div>
-
-      <div class="paper-item">
-        <span class="year">2023</span>
-        <div>
-          <p class="paper-title">Neurons in primate area MSTd signal eye movement direction inferred from dynamic perspective cues in optic flow</p>
-          <p class="paper-meta">PMID: 36725323 &mdash; <a href="https://pubmed.ncbi.nlm.nih.gov/36725323/" target="_blank">Link</a></p>
-        </div>
-      </div>
-
-      <div class="paper-item">
-        <span class="year">2021</span>
-        <div>
-          <p class="paper-title">Brain-computer interface-based assessment of color vision</p>
-          <p class="paper-meta">PMID: 3467880 &mdash; <a href="https://iopscience.iop.org/article/10.1088/1741-2552/ac3264" target="_blank">Link</a></p>
-        </div>
-      </div>
-
     </div>
+
+    <div class="pub-section">
+      <div class="pub-year">2025</div>
+      <div class="pub-item">
+        <span class="pub-num">3.</span>
+        <span class="pub-cite">
+          Dong, Y., Lengyel, G., Shivkumar, S., Anzai, A., <strong>DiRisio, G. F.</strong>, Haefner, R. M., &amp; DeAngelis, G. C. (2025). Rewarding animals based on their subjective percepts is enabled by online Bayesian estimation of perceptual biases. <em>PLOS Biology, 23</em>(5), e3002764. <a href="https://doi.org/10.1371/journal.pbio.3002764" target="_blank">https://doi.org/10.1371/journal.pbio.3002764</a>
+        </span>
+      </div>
+    </div>
+
+    <div class="pub-section">
+      <div class="pub-year">2023</div>
+      <div class="pub-item">
+        <span class="pub-num">2.</span>
+        <span class="pub-cite">
+          <strong>DiRisio, G. F.</strong>, Ra, Y., Qiu, Y., Anzai, A., &amp; DeAngelis, G. C. (2023). Neurons in primate area MSTd signal eye movement direction inferred from dynamic perspective cues in optic flow. <em>Journal of Neuroscience, 43</em>(11), 1888–1904. <a href="https://doi.org/10.1523/JNEUROSCI.1885-22.2023" target="_blank">https://doi.org/10.1523/JNEUROSCI.1885-22.2023</a>
+        </span>
+      </div>
+    </div>
+
+    <div class="pub-section">
+      <div class="pub-year">2021</div>
+      <div class="pub-item">
+        <span class="pub-num">1.</span>
+        <span class="pub-cite">
+          Norton, J. J. S., <strong>DiRisio, G. F.</strong>, Carp, J. S., Norton, A. E., Kochan, N. S., &amp; Wolpaw, J. R. (2021). Brain-computer interface-based assessment of color vision. <em>Journal of Neural Engineering, 18</em>(6), 066024. <a href="https://doi.org/10.1088/1741-2552/ac3264" target="_blank">https://doi.org/10.1088/1741-2552/ac3264</a>
+        </span>
+      </div>
+    </div>
+
   </main>
 
   <footer>
-    <p>gdirisio@uchicago.edu &nbsp;</p>
+    <div class="links">
+      <a href="mailto:gracedirisio@gmail.com">gracedirisio@gmail.com</a>
+      <span class="sep">·</span>
+      <a href="https://scholar.google.com/citations?hl=en&user=cxq9dCEAAAAJ" target="_blank">Google Scholar</a>
+      <span class="sep">·</span>
+      <a href="https://drive.google.com/file/d/1dTnSsPS464YSvUCDtDxp482b3cycrvg7/view?usp=sharing" target="_blank">CV</a>
+    </div>
   </footer>
 </body>
 </html>
