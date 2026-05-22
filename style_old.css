@@ -3,16 +3,18 @@
   --text: #000000;
   --muted: #555555;
   --border: #e0e0e0;
-  --link: #0066cc;
 }
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 16px;
 }
+
 body {
   background: var(--bg);
   color: var(--text);
@@ -22,6 +24,7 @@ body {
   margin: 0 auto;
   padding: 0 1.5rem;
 }
+
 /* NAV */
 nav {
   display: flex;
@@ -31,25 +34,30 @@ nav {
   margin-bottom: 3rem;
 border-bottom: 1px solid #000000;
 }
+
 .nav-name {
   font-weight: 600;
   font-size: 1.5rem;
   color: var(--text);
   text-decoration: none;
 }
+
 .nav-links {
   display: flex;
   gap: 1.8rem;
 }
+
 .nav-links a {
   font-size: 0.9rem;
-  color: var(--link);
+  color: var(--muted);
   text-decoration: none;
 }
+
 .nav-links a:hover,
 .nav-links a.active {
   color: var(--text);
 }
+
 /* HERO */
 .hero {
   display: flex;
@@ -57,55 +65,67 @@ border-bottom: 1px solid #000000;
   align-items: flex-start;
   margin-bottom: 3rem;
 }
+
 .hero-text {
   flex: 1;
 }
+
 h1 {
   font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 0.2rem;
 }
+
 .subtitle {
   font-size: 0.9rem;
   color: var(--muted);
   margin-bottom: 1.2rem;
 }
+
 .bio {
   font-size: 0.95rem;
   margin-bottom: 1.2rem;
 }
+
 .links {
   font-size: 0.88rem;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
 }
+
 .links a {
-  color: var(--link);
+  color: var(--text);
   text-decoration: none;
 }
+
 .links a:hover {
   text-decoration: underline;
 }
+
 .sep {
   color: var(--border);
   margin: 0 0.5rem;
 }
+
 .hero-photo {
   flex-shrink: 0;
   width: 160px;
 }
+
 .hero-photo img {
   width: 100%;
   display: block;
   border-radius: 2px;
 }
+
 /* DIVIDER */
 .divider {
   border: none;
   border-top: 1px solid #000;
   margin: 0 0 2.5rem;
 }
+
 /* SECTION HEADINGS */
 h2 {
   font-size: 0.8rem;
@@ -115,11 +135,13 @@ h2 {
   color: var(--muted);
   margin-bottom: 1.5rem;
 }
+
 /* PAPERS */
 .paper-list,
 .recent {
   margin-bottom: 2.5rem;
 }
+
 .paper-item {
   display: flex;
   gap: 1.5rem;
@@ -127,9 +149,11 @@ h2 {
   padding-bottom: 1.4rem;
   border-bottom: 1px solid var(--border);
 }
+
 .paper-item:last-of-type {
   border-bottom: none;
 }
+
 .year {
   font-size: 0.82rem;
   color: var(--muted);
@@ -137,46 +161,57 @@ h2 {
   flex-shrink: 0;
   padding-top: 0.15rem;
 }
+
 .paper-title {
   font-size: 1.0rem;
   margin-bottom: 0.2rem;
 }
+
 .paper-meta {
   font-size: 0.82rem;
   color: var(--muted);
 }
+
 .paper-meta a {
-  color: var(--link);
+  color: var(--muted);
   text-decoration: underline;
 }
+
 .paper-meta a:hover {
   color: var(--text);
 }
+
 .see-all {
   font-size: 0.85rem;
-  color: var(--link);
+  color: var(--muted);
   text-decoration: none;
   display: inline-block;
   margin-top: 0.5rem;
 }
+
 .see-all:hover {
   color: var(--text);
   text-decoration: underline;
 }
+
 /* PROSE (current work page) */
 .prose {
   font-size: 0.95rem;
 }
+
 .prose p {
   margin-bottom: 1.2rem;
 }
+
 .prose a {
-  color: var(--link);
+  color: var(--text);
   text-decoration: underline;
 }
+
 .prose a:hover {
   color: var(--muted);
 }
+
 /* FOOTER */
 footer {
   padding: 2rem 0 1.5rem;
@@ -185,6 +220,7 @@ footer {
   font-size: 0.82rem;
   color: var(--muted);
 }
+
 /* RESPONSIVE */
 @media (max-width: 560px) {
   nav {
