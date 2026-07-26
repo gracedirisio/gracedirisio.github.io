@@ -1,2 +1,1 @@
-# gracedirisio.github.io
-# academic website for Grace DiRisio 
+# gracedirisio.github.io ... academic website for Grace DiRisio 
